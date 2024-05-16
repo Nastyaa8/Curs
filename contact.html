@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Интернет-магазин ювелирных украшений «Adamas» — Контакты</title>
+        <!-- значение для всех -->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="styles/contact/contact.css" />
+        <link rel="stylesheet" href="styles/contact/form.css" />
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="index.html"><img id="logo" src="img/logo.svg" /></a>
+            <div>
+                <!-- Нав меню -->
+                <ul id="navbar">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                    <li id="bag-og">
+                        <a href="cart.html"><img class="bag-icon" src="img/icons/shopping-bag.png" /></a>
+                    </li>
+                    <img id="close" class="close-icon" src="img/icons/x.png" />
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><img class="bag-icon" src="img/icons/shopping-bag.png" /></a>
+                <img id="bar" class="menu-icon" src="img/icons/bars.png" />
+            </div>
+        </section>
+        <!-- Самое начало -->
+        <section id="page-header">
+            <h2>#let's_talk</h2>
+            <p>ОСТАВЬТЕ СООБЩЕНИЕ, мы будем рады получить от вас весточку!</p>
+        </section>
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <!-- контакты и т.д. -->
+                <span>СВЯЗАТЬСЯ</span>
+                <h2>Посетите наш магазин или свяжитесь с нами</h2>
+                <h3>Главный офис</h3>
+                <ul>
+                    <li>
+                        <p>Глассфорд-стрит, 56, Глазго, G1, 1UL, Нью-Йорк</p>
+                    </li>
+                    <li>
+                        <p>contact@example.com</p>
+                    </li>
+                    <li>
+                        <p>+375 33 657 89 89</p>
+                    </li>
+                    <li>
+                        <p>Понедельник-Суббота: с 9.00 до 16.00</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="map">
+                <!-- карта нахождения магазина -->
+                <iframe
+                
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.2122402379496!2d37.56183083499434!3d55.74710079658957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bcbd272bd79%3A0xfa44814acac8ac7a!2z0JDQtNCw0LzQsNGB!5e0!3m2!1sru!2sby!4v1714831597387!5m2!1sru!2sby"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </section>
+        <!-- Страница с регистрацией -->
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Связаться с нами</h2>
+                    <form class="form-contacts form" id="form" name="form">
+                        <input required type="text" name="name" class="field" placeholder="Ваше имя" />
+                        <input required type="text" name="mail" class="field js-input-email" title="Пример ввода '...@gmail.com'" pattern="^\[a-z]+@+(gmail|mail|yandex)\.(com|ru|by)$" placeholder="Ваш Email" />
+                        <input required type="text" name="phone" class="field js-input-phone]" title="+375 (..) ...-..-.." pattern="^\+375 \((17|29|25|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"
+
+                        placeholder="Ваш телефон" />
+                        <textarea required name="info" placeholder="Ваш комментарий" class="field"></textarea>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModalForm" class="modalForm">
+            <div class="modal-contentForm">
+              <span class="closeForm">&times;</span>
+              <p>Ваша форма была успешно отправлена!</p>
+            </div>
+          </div>
+
+        
+
+        <!-- рассылка -->
+        <section id="newsletter" class="section-p1">
+            <div class="newstext">
+                <!-- рассылка -->
+                <h4>Подпишись на рассылку</h4>
+                <p>Получай уведомление об обновлении и <span>СПЕЦИАЛЬНЫХ ПРЕДЛОЖЕНИЯХ</span></p>
+            </div>
+            <div class="formMail">
+                <form class="follow myForm" action="mail.php" id="myForm" name="myForm">
+                    <input required type="text" name="email" title="Пример ввода '...@gmail.com'" pattern="^[a-z]+@+(gmail|mail|yandex)\.(com|.ru|.by)" placeholder="Ваш электронный адрес" />
+                    <button type="submit" class="normal formBtn">Подписаться</button>
+                </form>
+            </div>
+               <!-- Модальное окно -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Теперь вы подписаны на рассылку!</p>
+                </div>
+            </div>
+        </section>
+        <footer class="section-p1">
+            <!-- где находится магазин -->
+            <div class="col">
+                <img src="img/logo.svg" alt="" />
+                <p><strong>Адрес:</strong> г.Минск, ул.Белорусская 19</p>
+                <p><strong>Телефон:</strong> +375 33 678 89 04</p>
+                <p><strong>Время работы:</strong> 10:00 - 18:00, Пн.- Сб.</p>
+                <div class="follow">
+                    <h4>Следите за нами</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/index.php/"><img class="footer-icon" src="img/icons/facebook.png" alt="facebook" /></a>
+                        <a href="https://twitter.com/"><img class="footer-icon" src="img/icons/twitter.png" alt="twitter"/></a>
+                        <a href="https://www.instagram.com/"><img class="footer-icon" src="img/icons/instagram.png" alt="instagram"/></a>
+                        <a href="https://www.youtube.com/"><img class="footer-icon" src="img/icons/youtube.png" alt="youtube"/></a>
+                        <a href="https://www.pinterest.com/"><img class="footer-icon" src="img/icons/pinterest.png" alt="pinterest"/></a>
+                    </div>
+                </div>
+            </div>
+            <!-- о компании -->
+            <!-- где скачать приложение -->
+            <div class="col install">
+                <h4>Скачать приложение</h4>
+                <p>Из App Store или Google Play</p>
+                <div class="row">
+                    <a href="https://www.apple.com/lae/"><img src="img/pay/app.jpg" alt="app" /></a>
+                    <a href="https://play.google.com/store/apps/details?id=ru.adamas.assistent"><img src="img/pay/play.jpg" alt="play" /></a>
+
+                </div>
+                <!-- конец -->
+                <!-- Карты доступные для оплаты -->
+                <p>Способы оплаты</p>
+                <img src="img/pay/pay.png" alt="pay" />
+            </div>
+            <!-- конец -->
+            <!-- значок оффициал -->
+            <div class="copyright">
+                <p>2024, Интернет-магазин ювелирных украшений «Adamas»</p>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+        <script src="form.js"></script>
+        <script src="AJAX.js"></script>
+        <script src="AJAXmail.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Интернет-магазин ювелирных украшений «Adamas» — Магазин</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="styles/shop/page-header.css" />
+        <link rel="stylesheet" href="styles/shop/pagination.css" />
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="index.html"><img id="logo" src="img/logo.svg" alt="logotip" /></a>
+            <div>
+                <!-- нав меню -->
+                <ul id="navbar">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="shop.html" class="active">Магазин</a></li>
+
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li id="bag-og">
+                        <a href="cart.html"><img class="bag-icon" src="img/icons/shopping-bag.png" alt="bag" /></a>
+                    </li>
+                    <img id="close" class="close-icon" src="img/icons/x.png" alt="close-icon"/>
+                </ul>
+            </div>
+            <!-- Для мобильной версии -->
+            <div id="mobile">
+                <a href="cart.html"><img class="bag-icon" src="img/icons/shopping-bag.png" alt="bag"/></a>
+                <img id="bar" class="menu-icon" src="img/icons/bars.png" alt="menu-icon"/>
+            </div>
+        </section>
+        <!-- Начало страницы -->
+        <section id="page-header">
+            <h2>#stayhome</h2>
+            <p>Экономьте больше с помощью купонов и скидок до 70%!</p>
+        </section>
+        <section id="product1" class="section-p1">
+            <div class="pro-container">
+                <!--  ----------------------------------------------------------->
+                <div class="pro">
+                    <!-- --------------------------------------------------- -->
+                    <!-- Продукт -->
+                    <img class="producto" src="img/shop/product13.jpg" alt="product" />
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <!-- звездочки -->
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>956&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="1"
+                                            data-title="Золотое кольцо с накладкой из белого золота"
+                                            data-price="956"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product14.jpg" alt="product" />
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>614&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="2"
+                                            data-title="Золотое кольцо с накладкой из белого золота и бриллиантами"
+                                            data-price="614"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product15.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>276&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="3"
+                                            data-title="Золотое кольцо с эмалью серебрянной вставкой и бриллиантами"
+                                            data-price="276"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product16.jpg" alt="product" />
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>511&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="4"
+                                            data-title="Золотая серьга в форме 4-х листного клевера"
+                                            data-price="511"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product17.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>978&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="5"
+                                            data-title="Золотая серьга в форме сердца"
+                                            data-price="978"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product18.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>890&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="6"
+                                            data-title="Золотая серьга в форме медведя"
+                                            data-price="890"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product19.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>1021&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="7"
+                                            data-title="Золотая серьга с эмалью вставкой из белого золота с бриллиантом"
+                                            data-price="1021"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product20.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>861&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="8"
+                                            data-title="Золотое сердце с бриллиантами"
+                                            data-price="861"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product21.jpg" alt="product" />
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>578&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="9"
+                                            data-title="Золотая серьга с огранённым рубином"
+                                            data-price="578"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product22.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>1319&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="10"
+                                            data-title="Золотая серьга с огранённым августитом и бриллиантами"
+                                            data-price="1319"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product23.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>1031&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="11"
+                                            data-title="Золотая серьга в форме сердца с россыпью голубых сапфиров"
+                                            data-price="1031"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img class="producto" src="img/shop/product24.jpg" alt="product"/>
+                    <div class="des">
+                        <h5>BALANCE коллекция</h5>
+                        <div class="star">
+                            <img class="star-icon" src="img/icons/star.png" alt="star" />
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                            <img class="star-icon" src="img/icons/star.png" alt="star"/>
+                        </div>
+                        <h4>1373&#36;</h4>
+                    </div>
+                    <div class="container-fluid col-md-12 text-center">
+                        <br>
+                        <table width="100%" class="table table-bordered table-hover">
+                            <tr class="item">
+                                <td class="quantity">
+                                    <button class="decrement btn btn-primary-lft">-</button>
+                                    <button class="count btn btn-default">1</button>
+                                    <button class="increment btn btn-primary-rght">+</button>
+                                </td>
+                                <td>
+                                    <button class="add_item btn btn-success"
+                                            data-id="12"
+                                            data-title="Серьга золотая рыбка с голубым сапфиром и бриллиантами"
+                                            data-price="1373"
+                                    ><div class="cart-icon-container">
+                                        <a href="#"><img class="cart-icon" src="img/icons/cart.png" alt="cart-icon" /></a>
+                                    </div></button>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p style="display: none;"><button style="display: none;" id="checkout" class="btn btn-info">Оформить заказ</button></p>
+            
+                        <div style="display: none;" class="container-fluid col-md-12 text-center" id="cart_content"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 1 и 2 страница -->
+        <section id="pagination" class="section-p1">
+            <a href="shop.html">1</a>
+            <a href="shop2.html">2</a>
+        </section>
+        <section id="newsletter" class="section-p1">
+            <div class="newstext">
+                <!-- рассылка -->
+                <h4>Подпишись на рассылку</h4>
+                <p>Получай уведомление об обновлении и <span>СПЕЦИАЛЬНЫХ ПРЕДЛОЖЕНИЯХ</span></p>
+            </div>
+            <div class="form">
+                <form class="follow myForm" action="mail.php" id="myForm" name="myForm">
+                    <input required type="text" name="email" title="Пример ввода '...@gmail.com'" pattern="^[a-z]+@+(gmail|mail|yandex)\.(com|.ru|.by)" placeholder="Ваш электронный адрес" />
+                    <button type="submit" class="normal formBtn">Подписаться</button>
+                </form>
+            </div>
+               <!-- Модальное окно -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Теперь вы подписаны на рассылку!</p>
+                </div>
+            </div>
+        </section>
+        <!-- нижняя часть сайта -->
+        <footer class="section-p1">
+            <!-- где находится магазин -->
+            <div class="col">
+                <img src="img/logo.svg" alt="" />
+                <p><strong>Адрес:</strong> г.Минск, ул.Белорусская 19</p>
+                <p><strong>Телефон:</strong> +375 33 678 89 04</p>
+                <p><strong>Время работы:</strong> 10:00 - 18:00, Пн.- Сб.</p>
+                <div class="follow">
+                    <h4>Следите за нами</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/index.php/"><img class="footer-icon" src="img/icons/facebook.png" alt="facebook" /></a>
+                        <a href="https://twitter.com/"><img class="footer-icon" src="img/icons/twitter.png" alt="twitter"/></a>
+                        <a href="https://www.instagram.com/"><img class="footer-icon" src="img/icons/instagram.png" alt="instagram"/></a>
+                        <a href="https://www.youtube.com/"><img class="footer-icon" src="img/icons/youtube.png" alt="youtube"/></a>
+                        <a href="https://www.pinterest.com/"><img class="footer-icon" src="img/icons/pinterest.png" alt="pinterest"/></a>
+                    </div>
+                </div>
+            </div>
+            <!-- о компании -->
+            <!-- где скачать приложение -->
+            <div class="col install">
+                <h4>Скачать приложение</h4>
+                <p>Из App Store или Google Play</p>
+                <div class="row">
+                    <a href="https://www.apple.com/lae/"><img src="img/pay/app.jpg" alt="app" /></a>
+                    <a href="https://play.google.com/store/apps/details?id=ru.adamas.assistent"><img src="img/pay/play.jpg" alt="play" /></a>
+
+                </div>
+                <!-- конец -->
+                <!-- Карты доступные для оплаты -->
+                <p>Способы оплаты</p>
+                <img src="img/pay/pay.png" alt="pay" />
+            </div>
+            <!-- конец -->
+            <!-- значок оффициал -->
+            <div class="copyright">
+                <p>2024, Интернет-магазин ювелирных украшений «Adamas»</p>
+            </div>
+        </footer>
+        
+        <script src="script.js"></script>
+        <script src="form.js"></script>
+        <script src="basket.js"></script>
+        <script src="AJAXmail.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    </body>
+</html>
